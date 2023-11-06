@@ -3,9 +3,9 @@ h1 {
     justify-content: center;
     text-align: center;
 }
-.alert-info {
-    display: block
-}
+/*.alert-info {*/
+/*    display: block*/
+/*}*/
 @media (min-width: 768px) {
     .alert-info {
         display: none;
@@ -80,14 +80,14 @@ footer {
 
 /* Media query for screens with a maximum width of 768px (tablets and smaller screens) */
 @media screen and (max-width: 768px) {
-    .header-img img {
-        width: 100%;
-    }
+    /*.header-img img {*/
+    /*    width: 100%;*/
+    /*}*/
 
-    .main, .sub-section {
-        margin: 10px;
-        max-width: none; /* Reset maximum width on smaller screens */
-    }
+    /*.main, .sub-section {*/
+    /*    margin: 10px;*/
+    /*    max-width: none; !* Reset maximum width on smaller screens *!*/
+    /*}*/
 }
 
 /* Media query for screens with a maximum width of 480px (mobile phones) */
