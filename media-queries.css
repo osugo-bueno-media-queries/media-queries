@@ -3,3 +3,67 @@
 @media screen and (min-width:992px) and (max-width:1199px){ /* ... */ }
 @media screen and (min-width:1220px){ /* ... */ }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-img img {
+    max-width: 100%;
+}
+
+.main, .sub-section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 600px; /* Optional maximum width for content */
+}
+
+footer {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+/* Media query for screens with a maximum width of 768px (tablets and smaller screens) */
+@media screen and (max-width: 768px) {
+    .header-img img {
+        width: 100%;
+    }
+
+    .main, .sub-section {
+        margin: 10px;
+        max-width: none; /* Reset maximum width on smaller screens */
+    }
+}
+
+/* Media query for screens with a maximum width of 480px (mobile phones) */
+@media screen and (max-width: 480px) {
+    /* Hide the "Skip to main content" link on mobile phones */
+    .hidden-on-desktop {
+        display: none;
+    }
+
+}
