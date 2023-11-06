@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f0f0f0; /* Optional background color */
+    background-color: #B0C4DE; /* Cool Grey (Light Slate Gray) */
 }
 
 h1 {
@@ -72,8 +72,9 @@ h1 {
 
 footer {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #B0C4DE;
     padding: 10px;
+
 }
 
 /* Media query for screens with a maximum width of 768px (tablets and smaller screens) */
