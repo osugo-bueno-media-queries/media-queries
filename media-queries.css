@@ -1,7 +1,36 @@
-@media screen and (min-width:576px) and  (max-width:767px) { /* ... */ }
-@media screen and (min-width:768px) and (max-width:991px){ /* ... */ }
-@media screen and (min-width:992px) and (max-width:1199px){ /* ... */ }
-@media screen and (min-width:1220px){ /* ... */ }
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.alert-info {
+    display: block
+}
+@media (min-width: 768px) {
+    .alert-info {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) and  (max-width:767px) {
+    h1 {
+        text-decoration: red;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    body {
+
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    body {
+
+    }
+}
+@media screen and (min-width:1220px){
+    body {
+
+    }
+}
 
 body {
     font-family: Arial, sans-serif;
