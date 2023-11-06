@@ -1,6 +1,7 @@
 h1 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .alert-info {
     display: block
@@ -12,9 +13,9 @@ h1 {
 }
 
 @media screen and (min-width:576px) and  (max-width:767px) {
-    h1 {
-        text-decoration: red;
-    }
+    /*h1 {*/
+    /*    text-decoration: red;*/
+    /*}*/
 }
 @media screen and (min-width:768px) and (max-width:991px){
     body {
@@ -44,9 +45,9 @@ body {
     background-color: #B0C4DE; /* Cool Grey (Light Slate Gray) */
 }
 
-h1 {
-    text-align: center;
-}
+/*h1 {*/
+/*    text-align: center;*/
+/*}*/
 
 .nav-links {
     list-style: none;
