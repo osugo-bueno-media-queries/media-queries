@@ -3,35 +3,46 @@ h1 {
     justify-content: center;
     text-align: center;
 }
-/*.alert-info {*/
-/*    display: block*/
-/*}*/
+.alert-info {
+    display: block
+}
 @media (min-width: 768px) {
     .alert-info {
         display: none;
     }
 }
 
-/*@media screen and (min-width:576px) and  (max-width:767px) {*/
-/*    !*h1 {*!*/
-/*    !*    text-decoration: red;*!*/
-/*    !*}*!*/
-/*}*/
-/*@media screen and (min-width:768px) and (max-width:991px){*/
-/*    body {*/
+@media screen and (min-width:576px) and  (max-width:767px) {
+    /*h1 {*/
+    /*    text-decoration: red;*/
+    /*}*/
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    body {
 
-/*    }*/
-/*}*/
-/*@media screen and (min-width:992px) and (max-width:1199px){*/
-/*    body {*/
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    body {
 
-/*    }*/
-/*}*/
-/*@media screen and (min-width:1220px){*/
-/*    body {*/
+    }
+}
+@media screen and (min-width:1220px){
+    body {
 
-/*    }*/
-/*}*/
+    }
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -42,7 +53,9 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #B0C4DE; /* Cool Grey (Light Slate Gray) */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
 /*h1 {*/
@@ -73,22 +86,24 @@ body {
 
 footer {
     text-align: center;
-    background-color: #B0C4DE;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;;
     padding: 10px;
 
 }
 
-/* Media query for screens with a maximum width of 768px (tablets and smaller screens) */
-/*@media screen and (max-width: 768px) {*/
-/*    !*.header-img img {*!*/
-/*    !*    width: 100%;*!*/
-/*    !*}*!*/
+ Media query for screens with a maximum width of 768px (tablets and smaller screens)
+@media screen and (max-width: 768px) {
+    /*.header-img img {*/
+    /*    width: 100%;*/
+    /*}*/
 
-/*    !*.main, .sub-section {*!*/
-/*    !*    margin: 10px;*!*/
-/*    !*    max-width: none; !* Reset maximum width on smaller screens *!*!*/
-/*    !*}*!*/
-/*}*/
+    /*.main, .sub-section {*/
+    /*    margin: 10px;*/
+    /*    max-width: none; !* Reset maximum width on smaller screens *!*/
+    /*}*/
+}
 
 /* Media query for screens with a maximum width of 480px (mobile phones) */
 @media screen and (max-width: 480px) {
